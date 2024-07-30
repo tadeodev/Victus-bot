@@ -1,11 +1,10 @@
-# Telegram Bot with Weather and Anime Scraping Capabilities
+# Telegram Bot with Anime Scraping Capabilities
 
-This repository contains a Telegram bot that provides weather updates and anime information. The bot is built using the `node-telegram-bot-api` library and integrates with several APIs for its functionalities.
+This repository contains a Telegram bot that provides anime information. The bot is built using the `node-telegram-bot-api` library and integrates with several APIs for its functionalities.
 
 ## Features
 
 - Responds to various commands to provide anime information.
-- Fetches weather updates.
 - Customizable command handling.
 - Periodic alerts and scraping functions.
 
@@ -29,7 +28,6 @@ This repository contains a Telegram bot that provides weather updates and anime 
 
 3.	Create a .env file in the root directory and add your API keys:
    BOT_API_KEY=your-telegram-bot-token
-   WEATHER_API_KEY=your-weather-api-key
 
 ### Commands
 
@@ -46,6 +44,5 @@ This repository contains a Telegram bot that provides weather updates and anime 
 	•	following.js
 	•	scraper.js
 	•	user.js
-	•	weather.js
 
 This README provides a clear overview of the project, setup instructions, commands, and code structure, making it easy for others to understand and contribute.
