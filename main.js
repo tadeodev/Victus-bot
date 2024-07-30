@@ -10,7 +10,6 @@ const dotenv = require('dotenv')
 const TelegramBot = require('node-telegram-bot-api');
 const token = process.env.BOT_API_KEY;
 const bot = new TelegramBot(token,{polling: true});
-const weather_api = process.env.WEATHER_API_KEY;
 
 //config of the anime scrapper
 const axios = require('axios');
@@ -24,7 +23,6 @@ const axios = require('axios');
 // var following_info = require('./commands/following.js')
 var scraper = require('./commands/scraper.js')
 var user = require('./commands/user.js')
-var weather = require('./commands/weather.js')
 
 
 //-----------------------------------//
